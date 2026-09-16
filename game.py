@@ -13,10 +13,7 @@ def main():
     goblin = Goblin("Greg")
 
     print(f"{goblin.name} enters the arena with {goblin.health} health.")
-<<<<<<< Updated upstream
-    print("But no hero has answered the call... yet.")
-=======
-
+    
     #Create Second Goblin
     secondGoblin = Goblin("Scribble")
     print(f"{secondGoblin.name} enters the arena with {secondGoblin.health} health.")
@@ -39,7 +36,6 @@ def battle(hero: Hero, enemy: Goblin):
         print(f"{hero.name} wins!")
     else:
         print(f"{enemy.name} wins!")
->>>>>>> Stashed changes
 
 
 if __name__ == "__main__":
